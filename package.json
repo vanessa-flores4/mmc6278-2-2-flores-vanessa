@@ -1,0 +1,30 @@
+{
+  "name": "random-quote-machine",
+  "version": "1.0.0",
+  "description": "Gets random quotes from a text file. Can also add quotes to the file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests.js",
+    "test:watch": "mocha tests.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessa-flores4/mmc6278-2-2-flores-vanessa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vanessa-flores4/mmc6278-2-2-flores-vanessa/issues"
+  },
+  "homepage": "https://github.com/vanessa-flores4/mmc6278-2-2-flores-vanessa#readme"
+}
