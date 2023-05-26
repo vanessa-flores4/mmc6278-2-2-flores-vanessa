@@ -25,7 +25,7 @@ program
       console.log(chalk.blue(quote.trim()));
       console.log(chalk.magenta(author.trim()));
     } catch (err) {
-      console.error(err);
+      console.log(err);
     }
   });
 
